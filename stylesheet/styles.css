@@ -1,0 +1,68 @@
+.banner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background: linear-gradient(to right, #f0f8ff, #e6e6fa);
+    padding: 10px 20px;
+    height: 50px;
+    height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.banner-content {
+    align-items: center;
+    flex: 1;
+}
+
+.logo {
+    width: 80px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+    position: absolute;
+    left: 20px;
+}
+h1 {
+    margin: 0;
+    color: #333;
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    flex: 1;
+}
+
+p {
+    margin: 0;
+    color: #555;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: auto;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    padding: 8px 14px;
+    border-radius: 8px;
+}
+
+.navbar a:hover,
+.navbar a:focus {
+    background: #e6e6fa;
+    color: #4b0082;
+    outline: none;
+    box-shadow: 0 0 0 2px #b39ddb;
+}
